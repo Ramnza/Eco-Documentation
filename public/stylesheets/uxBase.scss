@@ -1,3 +1,5 @@
+$tealColor: #009688;
+
 @mixin boxSizing(){
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
@@ -24,13 +26,15 @@ body{
 	font-weight: 300;
 }
 
-a{ text-decoration: none; outline: none; @include transition(color, 0.3s, ease-in-out); }
+a{ text-decoration: none; outline: none; @include transition(color, 0.3s, ease-in-out); color: #009688; }
 a:hover{ text-decoration: none; outline: none; }
+
+strong{ font-weight: 400; color: #009688; }
 
 header{
 	position: fixed; z-index: 0;
 	width: 100%; min-height: 300px;
-	background: #009688;
+	background: $tealColor;
 	padding: 40px;
 	color: #FFF;
 }
@@ -77,3 +81,8 @@ main div.botonera{
 	position: absolute;
 	top: -30px; right: 20px;
 }
+
+.why-features{
+	text-align: center;
+}
+.why-features .why-icon{ font-size: 60px; position: relative; top: 8px; color: $tealColor; display: block; margin-bottom: 20px; }

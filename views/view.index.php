@@ -45,14 +45,62 @@
 			</p>
 		</article>
 		<article>
+			<h2>Why Eco Framework?</h2>
+			<p>
+				Why will you choose Eco Framework over other frameworks? Why should we know that? If you like how we do it just use Eco Framework!
+				<br>
+				Theese are a few things about why Eco Framework is for you :)
+			</p>
+			<div class="col-md-4">
+				<div class="why-features">
+					<i class="material-icons why-icon">update</i>
+					<strong>Always Updated</strong>
+					<p>
+						Eco Framework is always updated and maintained by its community.
+					</p>
+				</div>
+				<hr class="visible-xs">
+			</div>
+			<div class="col-md-4">
+				<div class="why-features">
+					<i class="material-icons why-icon">public</i>
+					<strong>Open Source Software</strong>
+					<p>
+						Eco Framework is licensed under MIT License.
+					</p>
+				</div>
+				<hr class="visible-xs">
+			</div>
+			<div class="col-md-4">
+				<div class="why-features">
+					<i class="material-icons why-icon">widgets</i>
+					<strong>Modular Development</strong>
+					<p>
+						Eco Framework is module-friendly so you can add your own custom modules.
+					</p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</article>
+		<article>
 			<h2>Requirements</h2>
 			<p>
 				What are the requirements of Eco? The requirements of this PHP Framework are really simple:
-				<ul>
-					<li>PHP Version: 5.3+.</li>
-					<li>Apache's Mod_Rewrite module activated.</li>
-				</ul>
 			</p>
+			<div class="col-md-6">
+				<strong>PHP 5.3+</strong>
+				<p>
+					PHP Version 5.3 or above is needed to prevent issues.
+				</p>
+				<hr class="visible-xs">
+			</div>
+			<div class="col-md-6">
+				<strong>Mod_Rewrite</strong>
+				<p>
+					Apache's Mod_Rewrite module needs to be activated for routing.
+				</p>
+			</div>
+			<div class="clearfix"></div>
 		</article>
 		<article>
 			<h2>Configuration</h2>
