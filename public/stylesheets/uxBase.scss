@@ -31,6 +31,8 @@ a:hover{ text-decoration: none; outline: none; }
 
 strong{ font-weight: 400; color: #009688; }
 
+.alert strong{ color: #FFF; }
+
 header{
 	position: fixed; z-index: 0;
 	width: 100%; min-height: 300px;

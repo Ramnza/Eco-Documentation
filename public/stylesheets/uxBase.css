@@ -27,6 +27,9 @@ strong {
   font-weight: 400;
   color: #009688; }
 
+.alert strong {
+  color: #FFF; }
+
 header {
   position: fixed;
   z-index: 0;
